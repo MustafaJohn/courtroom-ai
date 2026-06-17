@@ -1,6 +1,6 @@
 # courtroom-ai
 This is a project which uses AI agents to simulate a courtroom environment
-
+```
 File Structure
 courtroom-ai/
 ├── docker-compose.yml
@@ -37,6 +37,7 @@ courtroom-ai/
 └── tests/
     ├── __init__.py
     └── test_agents.py
+```
 
 <img width="1440" height="1240" alt="image" src="https://github.com/user-attachments/assets/dcea1545-038f-4869-9997-3d5e77bf093b" />
 
