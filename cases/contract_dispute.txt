@@ -1,0 +1,34 @@
+Case: Whitman Holdings LLC v. Carrow Construction Inc.
+
+Whitman Holdings LLC ("Plaintiff") hired Carrow Construction Inc. ("Defendant")
+to renovate a commercial office building under a signed contract dated March 3,
+2024. The contract specified completion within 90 days and required the use of
+fire-rated drywall throughout, per local commercial building code.
+
+The renovation was completed 140 days after the start date. During a routine
+fire inspection three months after completion, the inspector found that
+standard (non-fire-rated) drywall had been installed in two stairwells,
+in violation of the building code referenced in the contract. Whitman Holdings
+was ordered by the city to remedy the violation at its own expense, costing
+approximately $85,000 in remediation and lost rental income during the
+remediation period.
+
+Whitman Holdings is suing Carrow Construction for breach of contract, seeking
+$85,000 in damages plus the contractual penalty of $500/day for the 50-day
+delay beyond the 90-day deadline (totaling $25,000), for a combined claim of
+$110,000.
+
+Carrow Construction disputes liability for the drywall issue. They claim
+their site foreman, Daniel Reyes, verified that fire-rated drywall was
+installed in all required areas before the project was signed off. However,
+Whitman's facilities manager, Priya Anand, states that during a walkthrough
+before final payment, she personally observed standard drywall being
+installed in the stairwells and raised a verbal concern to Reyes at the time,
+which Reyes denies ever occurred. Reyes maintains no such conversation took
+place and that Anand did not raise any concerns prior to signing the
+completion certificate.
+
+Carrow Construction further argues the 50-day delay was caused by a permit
+processing delay at the city planning office, which they claim is an excusable
+delay under the contract's force majeure clause, not a breach attributable to
+Carrow.
