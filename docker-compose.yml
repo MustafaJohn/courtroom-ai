@@ -1,0 +1,23 @@
+services:
+  courtroom-ai:
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - ./output:/app/output
+      - ./cases:/app/cases
+    stdin_open: true
+    tty: true
+
+  courtroom-ui:
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - ./output:/app/output
+      - ./cases:/app/cases
+    ports:
+      - "8501:8501"
+    entrypoint: ["streamlit", "run", "streamlit_app.py", "--server.address=0.0.0.0"]
+    profiles:
+      - ui

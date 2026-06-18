@@ -1,0 +1,5 @@
+langgraph==1.2.5
+openai>=1.50.0
+pydantic-settings>=2.5.0
+python-dotenv>=1.0.0
+streamlit>=1.38.0
