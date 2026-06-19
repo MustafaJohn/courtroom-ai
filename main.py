@@ -13,6 +13,8 @@ from pathlib import Path
 
 from core.config import settings
 from core.report import generate_report
+from core.llm import chat
+from core.prompts import VALIDATOR_SYSTEM
 from graph.workflow import build_workflow
 from graph.router import NODE_LABELS
 
@@ -80,10 +82,26 @@ def run_with_progress(app, initial_state: dict) -> dict:
     print(f"\nCompleted in {total_time:.1f}s\n")
     return final_state
 
+def validate_case_input(case_description: str) -> tuple[bool, str]:
+    """Fast pre-flight check before running the full graph."""
+    response = chat(
+        system=VALIDATOR_SYSTEM,
+        user=case_description
+        )
+    valid = "VALID: YES" in response
+    reason = response.split("REASON:")[-1].strip() if "REASON:" in response else "Input rejected."
+    return valid, reason
 
 def main() -> None:
     args = parse_args()
     case_description = load_case_description(args)
+    if len(case_description) < 20:
+        print("Error: case description is too short (must be at least 20 characters).", file=sys.stderr)
+        sys.exit(1)
+    valid, reason = validate_case_input(case_description)
+    if not valid:
+        print(f"Invalid case input: {reason}")
+        sys.exit(1)
 
     print("Running case through courtroom multi-agent system...\n")
 
