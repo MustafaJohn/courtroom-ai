@@ -101,7 +101,7 @@ PRECEDENTS CITED:
 - [precedent 2 — state how it applies to THIS case specifically]
 
 REASONING:
-[Your detailed legal reasoning here — for each precedent cited, explain specifically how the facts of THIS case map to that precedent]"""
+[For each claim, cite: (1) the specific fact from the Investigation that supports it, (2) the specific precedent by name that applies, and (3) how that precedent's outcome maps to this case. Do not make any claim without grounding it in both a fact and a precedent.]"""
 
 
 # ============================================
@@ -123,7 +123,7 @@ PRECEDENTS CITED:
 - [precedent 2]
 
 REASONING:
-[Your detailed defense reasoning here]"""
+[For each claim, cite: (1) the specific fact from the Investigation that supports it, (2) the specific precedent by name that applies, and (3) how that precedent's outcome maps to this case. Do not make any claim without grounding it in both a fact and a precedent.]"""
 
 
 # ============================================
@@ -203,7 +203,11 @@ DECISION: Agree OR Dissent OR Override
 FINAL VERDICT: Plaintiff OR Defense OR Modified
 DAMAGES: $[amount derived from case facts] OR None
 REASONING:
-[Your reasoning, citing specific precedents by name]
+[Structure your reasoning as follows:
+1. KEY FACTS ACCEPTED: Which facts from the Investigation are material to this ruling and why.
+2. PRECEDENTS APPLIED: For each precedent you rely on, name it, state the legal principle it establishes, and explain how it applies to the accepted facts.
+3. JURY ASSESSMENT: Evaluate each juror's reasoning — what they got right, what they missed.
+4. FINAL DETERMINATION: Your ruling with explicit reference to the chain above.]
 
 If OVERRIDE, include:
 OVERRIDE JUSTIFICATION:
