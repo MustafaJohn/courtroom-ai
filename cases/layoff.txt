@@ -1,0 +1,27 @@
+Thompson v. TechStart Inc. - Employment Discrimination
+
+FACTS:
+- Thompson was a Senior Software Engineer at TechStart Inc.
+- Worked there for 5 years with excellent performance reviews
+- Thompson was terminated in March 2024
+- Thompson's replacement is a 28-year-old engineer
+
+DISPUTED TESTIMONY:
+- HR Director testifies: "Thompson was terminated due to budget cuts. 
+  His entire team was downsized by 40%. This was purely a business 
+  decision based on financial performance."
+
+- The VP of Engineering testifies: "I was told to fire Thompson 
+  because of his age. The CEO said, 'We need younger energy in 
+  the department.' I have email evidence."
+
+- The CEO testifies: "I never said anything about age. The decision 
+  was purely financial. The email evidence doesn't exist."
+
+The HR Director and VP of Engineering give contradictory accounts of 
+the reason for Thompson's termination.
+
+DAMAGES CLAIMED:
+- $200,000 back wages
+- $100,000 emotional distress
+- $50,000 lost benefits
