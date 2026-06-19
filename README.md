@@ -79,23 +79,14 @@ python main.py --case-file cases/contract_dispute.txt
 # Streamlit UI
 streamlit run streamlit_app.py
 ```
- 
----
- 
-## Usage
- 
-### CLI
- 
-```bash
-python main.py --case-file cases/contract_dispute.txt
-python main.py --case "Whitman Holdings sues Carrow Construction..."
-python main.py --case-file cases/contract_dispute.txt --output output/my_report.md
-```
- 
 ### Streamlit UI
  
 Open `http://localhost:8501`, paste or upload a case description, and click **Run Case**. Progress updates stream live as each agent completes. The full report renders inline with a download button.
  
+---
+ 
+## Usage
+  
 ### Adding a new case
  
 Create a `.txt` file in `cases/` with a plain English description of the case — who the parties are, what happened, what's disputed, and what's being claimed. No special format required.
