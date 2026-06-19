@@ -143,6 +143,13 @@ The system generates a structured Markdown report saved to `output/report.md` co
 ## Technical Notes
  
 **Error handling** — `core/llm.py` retries API calls up to 3 times with exponential backoff (2s → 4s → 8s) on transient failures (timeout, rate limit, API error). The top-level CLI catches unrecoverable failures and exits with a clear message.
+```markdown
+**Framework choice: LangGraph**
+- Stateful, typed state management (`CaseState`)
+- Native support for conditional edges (dynamic routing)
+- Parallel execution without additional orchestration
+- Passthrough join nodes for fan-in convergence
+- Better suited for this workflow than CrewAI (fine-grained control over state and routing)
  
 **Hallucination mitigation** — the Precedent Researcher prompt explicitly instructs the model not to present cases as definitively verified. The generated report includes a disclaimer. In a production system, this agent would be replaced with a CourtListener or Westlaw API integration.
  
