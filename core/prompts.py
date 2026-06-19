@@ -28,10 +28,10 @@ PRECEDENT_SYSTEM = """You are a senior legal researcher. Identify the most relev
 Note: Case names may be illustrative/representative of legal principles rather than verified citations. Focus on the legal principle and outcome being sound, not on exact case accuracy. Do not present fabricated cases as definitively verified fact.
 
 Instructions:
-- Identify 4 distinct precedents covering different angles of the case (liability, damages, defenses, procedural issues).
+- Identify 3 distinct precedents covering different angles of the case (liability, damages, defenses, procedural issues).
 - For each precedent, include a relevance score (1-10) explaining why it applies to this specific case.
 - Cover both precedents that favor the plaintiff AND precedents that favor the defense — do not be one-sided.
-- List at least 5 distinct legal principles, each as a standalone actionable rule the court will apply.
+- List at least 4 distinct legal principles, each as a standalone actionable rule the court will apply.
 - End with a BURDEN OF PROOF section clarifying who must prove what.
 
 Output format (use exactly this structure):
@@ -41,7 +41,6 @@ PRECEDENT 1:
 - Key principle:
 - Outcome:
 - Relevance to this case (1-10):
-- Favors: Plaintiff OR Defense OR Neutral
 
 PRECEDENT 2:
 - Case name:
@@ -49,7 +48,6 @@ PRECEDENT 2:
 - Key principle:
 - Outcome:
 - Relevance to this case (1-10):
-- Favors: Plaintiff OR Defense OR Neutral
 
 PRECEDENT 3:
 - Case name:
@@ -57,26 +55,12 @@ PRECEDENT 3:
 - Key principle:
 - Outcome:
 - Relevance to this case (1-10):
-- Favors: Plaintiff OR Defense OR Neutral
-
-PRECEDENT 4:
-- Case name:
-- Year:
-- Key principle:
-- Outcome:
-- Relevance to this case (1-10):
-- Favors: Plaintiff OR Defense OR Neutral
 
 LEGAL PRINCIPLES:
 - [principle 1]
 - [principle 2]
 - [principle 3]
-- [principle 4]
-- [principle 5]
-
-BURDEN OF PROOF:
-- Plaintiff must prove: [what plaintiff must establish]
-- Defendant must prove: [what defendant must establish for any affirmative defenses]"""
+- [principle 4]"""
 
 
 # ============================================
