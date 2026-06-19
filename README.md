@@ -136,7 +136,6 @@ courtroom-ai/
 ---
  
 ## Output
- 
 The system generates a structured Markdown report saved to `output/report.md` containing:
  
 - Case description
@@ -147,7 +146,16 @@ The system generates a structured Markdown report saved to `output/report.md` co
 - Jury deliberation — before/after table showing verdict and confidence changes per juror
 - Judge's final ruling with legal reasoning
 > **Note:** Legal precedents are illustrative of legal principles and have not been independently verified against case law databases. This system is for demonstration purposes and does not constitute legal advice.
- 
+
+## Sample Run
+CLI Run: 
+<img width="1833" height="630" alt="image" src="https://github.com/user-attachments/assets/d8a770c2-815d-4458-afb1-e548cf0f3389" />
+
+Streamlit UI:
+<img width="1842" height="808" alt="image" src="https://github.com/user-attachments/assets/bcad7166-bd5f-4b43-ae2a-ef0c96ed2f5c" />
+
+There is a sample output attached in the `sample_output` directory showing the output.
+
 ---
  
 ## Technical Notes
